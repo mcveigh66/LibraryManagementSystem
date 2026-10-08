@@ -134,7 +134,6 @@ class LibraryServiceTest {
         assertEquals(0, user1.getBorrowedCount());
     }
 
-
     // 11. Test returning a book that was never borrowed fails
     @Test
     void testReturnBook_NotBorrowed() {
